@@ -37,10 +37,9 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
 3. Select the **target microcontroller** or board and click **Next**.
       <img width="1919" height="1199" alt="m3" src="https://github.com/user-attachments/assets/91f29af0-894b-4c67-a6c4-69906ee6d647" />
   
-
-
 4. Name the project.
-     <img width="586" height="654" alt="m4" src="https://github.com/user-attachments/assets/a8a610b9-d271-4756-9d9e-8ca0983a36d0" />
+
+   <img width="586" height="654" alt="m4" src="https://github.com/user-attachments/assets/a8a610b9-d271-4756-9d9e-8ca0983a36d0" />
   
 
 5. The corresponding `.ioc` file will be generated automatically.
@@ -54,7 +53,6 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
 7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
         <img width="1706" height="1025" alt="m7" src="https://github.com/user-attachments/assets/cb37918b-c44d-4129-9bdb-83277cafbfe2" />
 
- 
 8. Edit the generated main program as required.
    <img width="1919" height="1199" alt="m8" src="https://github.com/user-attachments/assets/914e4e5c-0563-48f4-b9d1-41a05d9ec6f2" />
     <img width="1919" height="1199" alt="m88" src="https://github.com/user-attachments/assets/08843c4a-f997-4986-b1f7-e2583445619d" />
@@ -62,14 +60,11 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
 9. Click **Project → Build All**.
      <img width="958" height="242" alt="m9" src="https://github.com/user-attachments/assets/184bd3a0-8981-4dee-ad87-846cd35e9e36" />
 
-
 10. Link the **HEX file** using the post-build process.
     <img width="1919" height="1199" alt="m10" src="https://github.com/user-attachments/assets/c569a78e-193c-499a-9cfd-059b80dcdc51" />
   
-
 11. Click **Debug** and connect the **STM Nucleo Board**.
      <img width="1914" height="1199" alt="m11" src="https://github.com/user-attachments/assets/467d4f8c-dc10-4a21-8d65-18a6fff63945" />
-
 
 13. Click **Run** to execute the program.
     
@@ -110,12 +105,12 @@ int main(void)
 ---
 ### OUTPUT
 CASE 1: LED ON 
-       
+
 <img width="603" height="432" alt="led on" src="https://github.com/user-attachments/assets/fc691c39-674e-4295-b13f-58a5f8c4782a" />
  
 
 CASE 2: LED OFF
-        
+
 <img width="596" height="416" alt="led off" src="https://github.com/user-attachments/assets/0d53641f-21b0-44ba-9062-b6fc40c13e39" />
 
 ---
